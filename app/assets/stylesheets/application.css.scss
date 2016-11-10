@@ -23,7 +23,8 @@
    font-family: 'Open Sans', sans-serif;
  }
 
-.navbar, .home-callout{
+.navbar, .home-callout{ 
+  //Here we added the gradient to the navbar and the home-callout class. 
   //Gradient provided by @_ighosh at uiGradients.com
   background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
@@ -33,7 +34,7 @@
   border: none;
 }
 
-.home-callout {
+.home-callout { //Here we added some margins and padding to make the text fit
   color:white;
   margin-top: -20px;
   padding-top: 50px;
