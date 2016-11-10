@@ -34,22 +34,15 @@
   border: none;
 }
 
-.navbar-default .navbar-brand {
+// Adding a comma (,) allows you to group multiple classes together. However if the classes are used together no comma is needed
+// SCSS also allows you to nest certain features like the hover function inside of other functions! 
+// This way it is much neater than having to write multiple lines - Always remember DRY - DONT REPEAT YOURSELF
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color:white;
-}
-
-.navbar-default .navbar-brand:hover {
-  color:white;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color:white;
-  opacity: 0.75;
+  &:hover{
+    color: white;
+    opacity: 0.75;
+  }
 }
 
 .home-callout { //Here we added some margins and padding to make the text fit
